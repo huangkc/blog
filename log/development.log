@@ -2456,3 +2456,1188 @@ Processing by WelcomeController#index as HTML
   Rendered layouts/_header.html.erb (1.0ms)
   Rendered layouts/_footer.html.erb (0.5ms)
 Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 11:43:45 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 4165ms (Views: 4148.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/assets/application.self-680251d225992f838fc57b4b3681c00d436a71dbf646be3e08aaa3dbbe14669e.js?body=1" for ::1 at 2016-02-15 11:43:50 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 11:45:06 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 133ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/assets/application.self-680251d225992f838fc57b4b3681c00d436a71dbf646be3e08aaa3dbbe14669e.js?body=1" for ::1 at 2016-02-15 11:45:06 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 11:45:25 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/assets/application.self-680251d225992f838fc57b4b3681c00d436a71dbf646be3e08aaa3dbbe14669e.js?body=1" for ::1 at 2016-02-15 11:45:25 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 11:45:30 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/assets/application.self-680251d225992f838fc57b4b3681c00d436a71dbf646be3e08aaa3dbbe14669e.js?body=1" for ::1 at 2016-02-15 11:45:30 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 11:45:35 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 11:45:35 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/assets/application.self-680251d225992f838fc57b4b3681c00d436a71dbf646be3e08aaa3dbbe14669e.js?body=1" for ::1 at 2016-02-15 11:45:36 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 13:48:57 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 184ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 13:48:57 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 13:48:58 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 13:48:58 -0800
+
+
+Started GET "/assets/application.self-680251d225992f838fc57b4b3681c00d436a71dbf646be3e08aaa3dbbe14669e.js?body=1" for ::1 at 2016-02-15 13:48:58 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 14:25:15 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (214.3ms)
+Completed 500 Internal Server Error in 2302ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x007fae262a8330>:0x007fae1c9d05b8>):
+    21:     <nav>
+    22:       <ul class="nav navbar-nav navbar-right">
+    23:         <li><%= link_to "Home", root_path %></li>
+    24:         <li><%= link_to "Help", help_path %></li>
+    25:         <% if logged_in? %>
+    26:           <li><%= link_to "Users", '#' %></li>
+    27:           <li class="dropdown">
+  app/views/layouts/_header.html.erb:24:in `_app_views_layouts__header_html_erb__1413826622105995050_70192984857580'
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__4175961876866898173_70192879691120'
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (82.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (93.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (188.9ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:25:31 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (47.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (107.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 211ms (Views: 129.2ms | ActiveRecord: 81.1ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/application.self-3be41dd16a3b2c6f4fa3ffda90f93826b406363bf48f82d0344fde056e26ba2d.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:25:31 -0800
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:25:39 -0800
+
+SyntaxError (/Users/kaihuang/Desktop/blog/app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (84.9ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (175.0ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:25:39 -0800
+
+SyntaxError (/Users/kaihuang/Desktop/blog/app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (76.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (133.4ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:26:48 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 116ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/assets/application.self-3be41dd16a3b2c6f4fa3ffda90f93826b406363bf48f82d0344fde056e26ba2d.js?body=1" for ::1 at 2016-02-15 14:26:49 -0800
+
+
+Started GET "/" for ::1 at 2016-02-15 14:29:55 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (17.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 211ms (Views: 203.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/assets/application.self-3be41dd16a3b2c6f4fa3ffda90f93826b406363bf48f82d0344fde056e26ba2d.js?body=1" for ::1 at 2016-02-15 14:29:56 -0800
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:30:01 -0800
+
+SyntaxError (/Users/kaihuang/Desktop/blog/app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (87.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (185.4ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:30:02 -0800
+
+SyntaxError (/Users/kaihuang/Desktop/blog/app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/sessions_controller.rb:19: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (68.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (62.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.1ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:30:42 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (15.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 170ms (Views: 167.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/custom.self-76d46614b84ae9dd53dc6720d9b87b65154279482db93b012a561fc3d9c82e80.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/assets/application.self-3be41dd16a3b2c6f4fa3ffda90f93826b406363bf48f82d0344fde056e26ba2d.js?body=1" for ::1 at 2016-02-15 14:30:43 -0800
+
+
+Started GET "/signup" for ::1 at 2016-02-15 14:30:54 -0800
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.4ms)
+  Rendered users/new.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 104ms (Views: 62.6ms | ActiveRecord: 35.1ms)
+
+
+Started GET "/articles" for ::1 at 2016-02-15 14:30:58 -0800
+Processing by ArticlesController#index as HTML
+  [1m[35mArticle Load (0.4ms)[0m  SELECT "articles".* FROM "articles"
+  Rendered articles/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 53.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:30:59 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:31:01 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:31:02 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:31:05 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for ::1 at 2016-02-15 14:31:13 -0800
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:31:45 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:31:52 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 44.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/login" for ::1 at 2016-02-15 14:31:57 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lCAuLnuAkLgmXsHhYb2XcYhwbayqprwfuxvZBRzeM0I1V4J1TGBdrmNRJIWRAh77PdL2b7YZdXMZlbPI+4agkQ==", "session"=>{"email"=>"kai@kai.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (28.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "kai@kai.com"]]
+Completed 500 Internal Server Error in 168ms (ActiveRecord: 54.4ms)
+
+NoMethodError (undefined method `login_in' for #<SessionsController:0x007fae1cc9b2c0>):
+  app/controllers/sessions_controller.rb:8:in `create'
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (87.9ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (78.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (174.1ms)
+
+
+Started GET "/signup" for ::1 at 2016-02-15 14:32:27 -0800
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for ::1 at 2016-02-15 14:32:30 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n61cq5u/yk9AEyqFxMoWrCcHaNhp+OwqeKn3uNVMT1c+2vDwrF8HWQUcz+E0dZ8mkqXzG3VHJUbaJ511MhTchA==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account"}
+  [1m[36m (11.4ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (3.0ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('') LIMIT 1
+  [1m[36m (2.6ms)[0m  [1mROLLBACK[0m
+  Rendered shared/_error_messages.html.erb (3.5ms)
+  Rendered users/new.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 81ms (Views: 52.5ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:32:32 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for ::1 at 2016-02-15 14:32:48 -0800
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:34:39 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (12.1ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 191ms (Views: 182.8ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/login" for ::1 at 2016-02-15 14:34:40 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sW5eNZoalzGSgoIauKn6G0hddo4gKGMZpI5UuXoeWbMQGfJurfpaJ9eNZ35IFnOR/f/tTTyXqnUGAD50nUbKYA==", "session"=>{"email"=>"kai@kai.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[35mUser Load (1.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "kai@kai.com"]]
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 1.2ms)
+
+NoMethodError (undefined method `login_in' for #<SessionsController:0x007fae21ce9c18>):
+  app/controllers/sessions_controller.rb:8:in `create'
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (109.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (77.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (165.9ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:35:37 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_shim.html.erb (0.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (12.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 149ms (Views: 146.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 14:35:38 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/login" for ::1 at 2016-02-15 14:35:40 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7YaYRo5MvTIFAkmreVc9LMDVY/e6/hsWUwvFONFAWoBM8TQduaxwJEANrM+J6LSmdXf4NKZB0nrxha/1NhjJUw==", "session"=>{"email"=>"kai@kai.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "kai@kai.com"]]
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 87ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/users/1" for ::1 at 2016-02-15 14:35:40 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 154ms (Views: 148.4ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-02-15 14:36:45 -0800
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pHAl8QxqYLV4cTzlsZvgXZrICY0S9HhGDAkMQ8RObqIFB4mqO4qtoz1+2YFBJGnXL2qSTg5LsSquh2aOIxb9cQ=="}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template sessions/destroy, application/destroy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/kaihuang/Desktop/blog/app/views"
+):
+  actionview (4.2.5) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.2.5) lib/action_view/lookup_context.rb:121:in `find'
+  actionview (4.2.5) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:40:in `determine_template'
+  actionview (4.2.5) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.2.5) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.2.5) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.5) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.5) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.5) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.5) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/2.2.0/benchmark.rb:303:in `realtime'
+  activesupport (4.2.5) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.5) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (19.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (9.9ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (107.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (2.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (3.0ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (100.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (206.7ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-02-15 14:40:55 -0800
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pHAl8QxqYLV4cTzlsZvgXZrICY0S9HhGDAkMQ8RObqIFB4mqO4qtoz1+2YFBJGnXL2qSTg5LsSquh2aOIxb9cQ=="}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `log_out' for #<SessionsController:0x007fae23edb240>):
+  app/controllers/sessions_controller.rb:17:in `destroy'
+
+
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.0ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.1ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (110.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.9ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.3ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.8ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.2ms)
+  Rendered /Users/kaihuang/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (181.9ms)
+
+
+Started DELETE "/logout" for ::1 at 2016-02-15 14:42:00 -0800
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pHAl8QxqYLV4cTzlsZvgXZrICY0S9HhGDAkMQ8RObqIFB4mqO4qtoz1+2YFBJGnXL2qSTg5LsSquh2aOIxb9cQ=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 14:42:00 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (26.9ms)
+  Rendered layouts/_footer.html.erb (1.2ms)
+Completed 200 OK in 208ms (Views: 198.5ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 15:12:32 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (9.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 3815ms (Views: 3811.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2016-02-15 15:12:36 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (35.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-c447cf98c9204cf10c4d3fdcfc870d05b4814ab027eb1b6a5905a63bd1efd839.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/articles.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/comments.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/application.self-7281e3b0991a3aef416d826e7de03da013e22bf91c045303f21a78fe32d71d47.css?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/articles.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/comments.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/assets/application.self-3be41dd16a3b2c6f4fa3ffda90f93826b406363bf48f82d0344fde056e26ba2d.js?body=1" for ::1 at 2016-02-15 15:12:36 -0800
+
+
+Started GET "/login" for ::1 at 2016-02-15 15:12:41 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-02-15 15:12:51 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
