@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end
+  get 'about'=>'welcome#about'
+  get 'contact'=>'welcome#contact'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
