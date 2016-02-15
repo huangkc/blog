@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   resources :articles do
     resources :comments
   end
-  # get 'welcome/index'
   get 'about' => 'welcome#about'
   get 'contact' => 'welcome#contact'
   get 'signup' => 'users#new'
