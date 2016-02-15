@@ -1,14 +1,14 @@
 Rails.application.routes.draw do
-  # get 'users/new'
   root 'welcome#index'
   get 'about' => 'welcome#about'
   get 'contact' => 'welcome#contact'
   get 'signup' => 'users#new'
-
+  get 'login' => 'sessions#new'
+  post 'login' => 'sessions#create'
+  delete 'logout' => 'sessions#destroy'
   resources :articles do
     resources :comments
   end
-
   resources :users
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
