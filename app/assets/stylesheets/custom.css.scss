@@ -1,7 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -22,10 +21,13 @@ $gray-medium-light: #eaeaea;
   @include box_sizing;
 }
 
+/*body {
+  padding-top: 60px;
+}*/
 body {
   padding-top: 60px;
+  padding-bottom: 20px;
 }
-
 section {
   overflow: auto;
 }
