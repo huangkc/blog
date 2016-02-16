@@ -27,8 +27,8 @@ $gray-medium-light: #eaeaea;
   right: 0;
   left: 0;
   z-index: 20;
-}*/
-
+}
+*/
 .jumbotron {
   background: url('mountain.jpeg');
   height: 350px;
@@ -92,6 +92,7 @@ p {
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
+  padding-bottom: 9px;
   font-weight: bold;
 }
 
