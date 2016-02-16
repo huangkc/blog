@@ -30,7 +30,8 @@ $gray-medium-light: #eaeaea;
 }
 */
 .jumbotron {
-  background: url('mountain.jpeg');
+  background-image: url(image-path('mountain.jpg'));
+  /*background: url('mountain.jpeg');*/
   height: 350px;
   background-size: cover;
 }
