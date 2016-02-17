@@ -34,6 +34,13 @@ $gray-medium-light: #eaeaea;
   /*background: url('mountain.jpeg');*/
   height: 350px;
   background-size: cover;
+  color: red;
+}
+
+.jumbotron p {
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
 }
 
 body {
