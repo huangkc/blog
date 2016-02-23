@@ -5295,3 +5295,405 @@ Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.9ms)
   [1m[35mMicropost Load (0.4ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  ORDER BY "microposts"."created_at" DESC LIMIT 30 OFFSET 0  [["user_id", 762146111]]
   [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 762146111]]
   [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (14.5ms)[0m  ALTER TABLE "schema_migrations" DISABLE TRIGGER ALL;ALTER TABLE "articles" DISABLE TRIGGER ALL;ALTER TABLE "comments" DISABLE TRIGGER ALL;ALTER TABLE "users" DISABLE TRIGGER ALL;ALTER TABLE "microposts" DISABLE TRIGGER ALL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM "articles"
+  [1m[36mFixture Insert (6.3ms)[0m  [1mINSERT INTO "articles" ("title", "text", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2016-02-23 14:35:20', '2016-02-23 14:35:20', 980190962)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO "articles" ("title", "text", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', '2016-02-23 14:35:20', '2016-02-23 14:35:20', 298486374)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "comments"[0m
+  [1m[35mFixture Insert (5.9ms)[0m  INSERT INTO "comments" ("commenter", "body", "article_id", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', NULL, '2016-02-23 14:35:20', '2016-02-23 14:35:20', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "comments" ("commenter", "body", "article_id", "created_at", "updated_at", "id") VALUES ('MyString', 'MyText', NULL, '2016-02-23 14:35:20', '2016-02-23 14:35:20', 298486374)[0m
+  [1m[35mFixture Delete (0.5ms)[0m  DELETE FROM "microposts"
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('I just ate an orange!', '2016-02-23 14:25:20 UTC', '2016-02-23 14:35:20', 499495288, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Check out the @tauday site by @mhartl: http://tauday.com', '2013-02-23 14:35:20 UTC', '2016-02-23 14:35:20', 517500819, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Sad cats are sad: http://youtu.be/PKffm2uI4dk', '2016-02-23 12:35:20 UTC', '2016-02-23 14:35:20', 12348100, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Writing a short test', '2016-02-23 14:35:20 UTC', '2016-02-23 14:35:20', 941832919, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Quo est corporis expedita magnam molestiae quis officiis id.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 177734013, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Nostrum consequatur neque totam voluptatem saepe sit.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 1033843180, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Non et et voluptatum vero rem magni aut reiciendis voluptas.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 613834836, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Deserunt maxime quaerat velit eligendi expedita ea impedit qui.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 328290505, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Ut dolores officiis qui nostrum nihil.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 234210660, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Totam ut laudantium itaque eos reiciendis aperiam.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 989001203, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Commodi labore minus ut eos.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 603694155, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Aliquid iure sed quae minima.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 352097504, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Omnis quas inventore ad non dolore vel.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 71534927, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Necessitatibus a odit et aliquid non quas provident labore.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 860142042, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Ut atque non voluptatum aut modi veritatis.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 58620899, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Impedit excepturi delectus eaque voluptatibus nesciunt culpa doloribus.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 880364408, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Consequatur aut iure reiciendis sint voluptatem.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 762321612, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Distinctio enim culpa praesentium laborum et rerum quia sit eveniet.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 444017243, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Perspiciatis non ut occaecati ducimus.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 68403196, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Voluptate autem rem quasi est.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 856985457, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Perspiciatis accusamus dignissimos doloremque vel.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 706600661, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Maxime dolorem tenetur asperiores molestiae a.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 488304196, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Voluptates asperiores id non unde iste odio.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 228979669, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Quaerat provident voluptatibus quia saepe asperiores.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 983745350, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Sed suscipit enim quia illo minus.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 676538406, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Aspernatur reiciendis cum error harum eaque voluptate nam perferendis.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 525605047, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Dolor perferendis numquam commodi ullam architecto ex.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 106776847, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Impedit natus vero quas quia consequuntur velit labore facere iusto.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 828012954, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Ipsum modi est qui officia commodi.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 792652861, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Et laudantium optio dolor perferendis perspiciatis sit et.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 406445230, 762146111)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Exercitationem eaque et assumenda dolorem facilis nemo id numquam.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 19959062, 762146111)[0m
+  [1m[35mFixture Insert (0.1ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Expedita earum cupiditate asperiores assumenda quo corporis.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 909622657, 762146111)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Accusantium necessitatibus quas iure dolores sed et aut.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 646488084, 762146111)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "microposts" ("content", "created_at", "updated_at", "id", "user_id") VALUES ('Nobis eos eius facere aut.', '2016-01-12 14:35:20 UTC', '2016-02-23 14:35:20', 294621321, 762146111)
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM "users"[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at", "id") VALUES ('Michael Example', 'michael@example.com', '$2a$04$ML1p.jF2LWrfbj0I8C4VUumau.CKcfiF5l/bezX8n5HjLYFS372yC', '2016-02-23 14:35:20', '2016-02-23 14:35:20', 762146111)
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (2.7ms)[0m  ALTER TABLE "schema_migrations" ENABLE TRIGGER ALL;ALTER TABLE "articles" ENABLE TRIGGER ALL;ALTER TABLE "comments" ENABLE TRIGGER ALL;ALTER TABLE "users" ENABLE TRIGGER ALL;ALTER TABLE "microposts" ENABLE TRIGGER ALL
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-------------------------------------------
+UserTest: test_email_should_not_be_too_long
+-------------------------------------------
+  [1m[35mUser Exists (0.9ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@example.com') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+------------------------------
+UserTest: test_should_be_valid
+------------------------------
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-----------------------------------------------
+UserTest: test_email_addresses_should_be_unique
+-----------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["email", "user@example.com"], ["name", "Example User"], ["password_digest", "$2a$04$HHk66cjqv7cL950Ps2UfjuzzTGAWHzBZIhI8btZl4mWoB15RjhLgG"], ["created_at", "2016-02-23 14:35:20.733689"], ["updated_at", "2016-02-23 14:35:20.733689"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('USER@EXAMPLE.COM') LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+----------------------------------------------------
+UserTest: test_password_should_have_a_minimum_length
+----------------------------------------------------
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+--------------------------------------------------------
+UserTest: test_associated_microposts_should_be_destroyed
+--------------------------------------------------------
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["name", "Example User"], ["email", "user@example.com"], ["password_digest", "$2a$04$qHN8bKJd0bZQXWMGccj5ke04DoB9plLGV9i9Nv671maEpHfwiSxk2"], ["created_at", "2016-02-23 14:35:20.747143"], ["updated_at", "2016-02-23 14:35:20.747143"]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "microposts" ("content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["content", "Lorem ipsum"], ["user_id", 762146113], ["created_at", "2016-02-23 14:35:20.799827"], ["updated_at", "2016-02-23 14:35:20.799827"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "microposts"[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  ORDER BY "microposts"."created_at" DESC[0m  [["user_id", 762146113]]
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "microposts" WHERE "microposts"."id" = $1  [["id", 1033843181]]
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 762146113]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+---------------------------------------------------------------
+UserTest: test_email_validation_should_reject_invalid_addresses
+---------------------------------------------------------------
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example,com') LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user_at_foo.org') LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user.name@example.') LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('foo@bar_baz.com') LIMIT 1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('foo@bar+baz.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------------------
+UserTest: test_email_should_be_present
+--------------------------------------
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('     ') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-------------------------------------------------------------
+UserTest: test_email_validation_should_accept_valid_addresses
+-------------------------------------------------------------
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('USER@foo.COM') LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('A_US-ER@foo.bar.org') LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('first.last@foo.jp') LIMIT 1[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('alice+bob@baz.cn') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------
+UserTest: test_name_should_not_be_too_long
+------------------------------------------
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-------------------------------------
+UserTest: test_name_should_be_present
+-------------------------------------
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+----------------------------------------------------
+UserTest: test_password_should_be_present_(nonblank)
+----------------------------------------------------
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+------------------------------------------------
+UsersSignupTest: test_invalid_signup_information
+------------------------------------------------
+Started GET "/signup" for 127.0.0.1 at 2016-02-23 06:35:20 -0800
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (1.0ms)
+  Rendered users/new.html.erb within layouts/application (64.2ms)
+  Rendered layouts/_shim.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (8.2ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 570ms (Views: 558.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+Started POST "/users" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by UsersController#create as HTML
+  Parameters: {"user"=>{"name"=>"Example User", "email"=>"user@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('user@example.com') LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Example User"], ["email", "user@example.com"], ["password_digest", "$2a$04$g9T2Y4QYGeGJddeDQqIMpOglcpP2V09UE2n.lJ.woZYTfoAp6dNsO"], ["created_at", "2016-02-23 14:35:21.599451"], ["updated_at", "2016-02-23 14:35:21.599451"]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/users/762146114
+Completed 302 Found in 6ms (ActiveRecord: 0.9ms)
+Started GET "/users/762146114" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"762146114"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146114]]
+  [1m[35mMicropost Exists (0.2ms)[0m  SELECT  1 AS one FROM "microposts" WHERE "microposts"."user_id" = $1 LIMIT 1  [["user_id", 762146114]]
+  Rendered users/show.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146114]]
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 32ms (Views: 12.4ms | ActiveRecord: 0.8ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "users"
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------------------------------
+MicropostsControllerTest: test_should_redirect_create_when_not_logged_in
+------------------------------------------------------------------------
+  [1m[36mMicropost Load (0.2ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1[0m  [["id", 499495288]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts"
+Processing by MicropostsController#create as HTML
+  Parameters: {"micropost"=>{"content"=>"Lorem ipsum"}}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "microposts"[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-------------------------------------------------------------------------
+MicropostsControllerTest: test_should_redirect_destroy_when_not_logged_in
+-------------------------------------------------------------------------
+  [1m[35mMicropost Load (0.2ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1  [["id", 499495288]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts"[0m
+Processing by MicropostsController#destroy as HTML
+  Parameters: {"id"=>"499495288"}
+Redirected to http://test.host/login
+Filter chain halted as :logged_in_user rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts"
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+-------------------------------------------
+SessionsControllerTest: test_should_get_new
+-------------------------------------------
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+---------------------------------
+SiteLayoutTest: test_layout_links
+---------------------------------
+Started GET "/" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+------------------------------------------------------------
+MicropostTest: test_content_should_be_at_most_140_characters
+------------------------------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146111]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+-----------------------------------------------------
+MicropostTest: test_order_should_be_most_recent_first
+-----------------------------------------------------
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 762146111]]
+  [1m[36mMicropost Load (0.2ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."id" = $1 LIMIT 1[0m  [["id", 941832919]]
+  [1m[35mMicropost Load (0.2ms)[0m  SELECT  "microposts".* FROM "microposts"  ORDER BY "microposts"."created_at" DESC LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+---------------------------------------------
+MicropostTest: test_content_should_be_present
+---------------------------------------------
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146111]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+---------------------------------------------
+MicropostTest: test_user_id_should_be_present
+---------------------------------------------
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+-----------------------------------
+MicropostTest: test_should_be_valid
+-----------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146111]]
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+--------------------------------------------------------------------
+UsersLoginTest: test_login_with_valid_information_followed_by_logout
+--------------------------------------------------------------------
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 762146111]]
+Started GET "/login" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"michael@example.com", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "michael@example.com"]]
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/users/762146111
+Completed 302 Found in 8ms (ActiveRecord: 0.8ms)
+Started GET "/users/762146111" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"762146111"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 762146111]]
+  [1m[36mMicropost Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "microposts" WHERE "microposts"."user_id" = $1 LIMIT 1[0m  [["user_id", 762146111]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 762146111]]
+  [1m[36mMicropost Load (0.5ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  ORDER BY "microposts"."created_at" DESC LIMIT 30 OFFSET 0[0m  [["user_id", 762146111]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 762146111]]
+  Rendered microposts/_micropost.html.erb (9.2ms)
+  Rendered users/show.html.erb within layouts/application (22.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146111]]
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 56ms (Views: 50.1ms | ActiveRecord: 1.5ms)
+Started DELETE "/logout" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by SessionsController#destroy as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 762146111]]
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+Redirected to http://www.example.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+Started GET "/" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+---------------------------------------------------
+UsersLoginTest: test_login_with_invalid_information
+---------------------------------------------------
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146111]]
+Started GET "/login" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+Started POST "/login" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by SessionsController#create as HTML
+  Parameters: {"session"=>{"email"=>"", "password"=>"[FILTERED]"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", ""]]
+  Rendered sessions/new.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.3ms)
+Started GET "/" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+----------------------------------------
+UsersControllerTest: test_should_get_new
+----------------------------------------
+Processing by UsersController#new as HTML
+  Rendered shared/_error_messages.html.erb (0.1ms)
+  Rendered users/new.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+----------------------------------------------
+WelcomeControllerTest: test_should_get_contact
+----------------------------------------------
+Processing by WelcomeController#contact as HTML
+  Rendered welcome/contact.html within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------------------------
+WelcomeControllerTest: test_should_get_about
+--------------------------------------------
+Processing by WelcomeController#about as HTML
+  Rendered welcome/about.html within layouts/application (0.7ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------------------------
+WelcomeControllerTest: test_should_get_index
+--------------------------------------------
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+--------------------------------------
+UsersProfileTest: test_profile_display
+--------------------------------------
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 762146111]]
+Started GET "/users/762146111" for 127.0.0.1 at 2016-02-23 06:35:21 -0800
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"762146111"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 762146111]]
+  [1m[36mMicropost Exists (0.2ms)[0m  [1mSELECT  1 AS one FROM "microposts" WHERE "microposts"."user_id" = $1 LIMIT 1[0m  [["user_id", 762146111]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 762146111]]
+  [1m[36mMicropost Load (0.3ms)[0m  [1mSELECT  "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  ORDER BY "microposts"."created_at" DESC LIMIT 30 OFFSET 0[0m  [["user_id", 762146111]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1  [["user_id", 762146111]]
+  Rendered microposts/_micropost.html.erb (11.1ms)
+  Rendered users/show.html.erb within layouts/application (17.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.9ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 762146111]]
+  [1m[35mMicropost Load (0.4ms)[0m  SELECT  "microposts".* FROM "microposts" WHERE "microposts"."user_id" = $1  ORDER BY "microposts"."created_at" DESC LIMIT 30 OFFSET 0  [["user_id", 762146111]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "microposts" WHERE "microposts"."user_id" = $1[0m  [["user_id", 762146111]]
+  [1m[35m (0.2ms)[0m  ROLLBACK
