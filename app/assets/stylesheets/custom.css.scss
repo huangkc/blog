@@ -13,6 +13,10 @@ $gray-medium-light: #eaeaea;
 
 /* miscellaneous */
 
+.about, .about p, .contact p {
+  font-size: 1.2em;
+}
+
 .debug_dump {
   clear: both;
   float: left;
