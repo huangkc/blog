@@ -37,10 +37,11 @@ $gray-medium-light: #eaeaea;
 .navbar {
   height: 60px;
   font-size: 1.3em;
+  /*background-color: red;*/
 }
 
 .jumbotron {
-  background-image: url(image-path('mountain.jpg'));
+  /*background-image: url(image-path('mountain.jpg'));*/
   /*background: url('mountain.jpeg');*/
   height: 600px;
   background-size: cover;
