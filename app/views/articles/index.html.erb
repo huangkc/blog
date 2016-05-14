@@ -6,7 +6,7 @@
     <!-- <tr> -->
     <p> <%= article.title %></p>
     <p> <%= article.text %></p>
-    <p><%= link_to 'Comment', article_path(article) %> | <%= link_to 'Delete', article_path(article),
+    <p><%= link_to 'Read More', article_path(article) %> | <%= link_to 'Delete', article_path(article),
               method: :delete,
               data: { confirm: 'Are you sure?' } %></p>
 

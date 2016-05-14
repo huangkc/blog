@@ -2,11 +2,11 @@
 <header class="navbar navbar-fixed-top">
   <div class="container">
 
-<!--     <%= link_to image_tag('https://images.unsplash.com/photo-1462813277085-db5366eb347b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=52a6acf51fca27374db90026bc9862ad', id: "logo"), root_path %> -->
+<!--     <%= link_to image_tag('#', id: "logo"), root_path %> -->
 
     <nav>
       <ul class="nav navbar-nav navbar-left">
-        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "MicroBlog", root_path %></li>
         <li><%= link_to "About", about_path %></li>
         <li><%= link_to "Contact", contact_path %></li>
 				<li><%= link_to 'News', controller: 'articles' %></li>
@@ -27,8 +27,8 @@
             </ul>
           </li>
         <% else %>
-<!--           <li><%= link_to "Log in", login_path %></li>
- -->        <% end %>
+          <li><%= link_to "Log in", login_path %></li>
+        <% end %>
 
       </ul>
     </nav>

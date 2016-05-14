@@ -1,4 +1,4 @@
-@import "bootstrap-sprockets";
+/*@import "bootstrap-sprockets";*/
 @import "bootstrap";
 
 /* mixins, variables, etc. */
@@ -40,12 +40,22 @@ $gray-medium-light: #eaeaea;
   /*background-color: red;*/
 }
 
+.navbar ul {
+  padding-left: 100px;
+  padding-top: 20px;
+}
+
+.container {
+  min-width: 100%;
+}
+
 .jumbotron {
   /*background-image: url(image-path('mountain.jpg'));*/
-  /*background: url('mountain.jpeg');*/
-  height: 600px;
+  background: url('mountain.jpeg');
+  height: 400px;
   background-size: cover;
   color: red;
+  min-width: 100%;
 }
 
 .jumbotron p {
