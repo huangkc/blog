@@ -37,8 +37,7 @@ $gray-medium-light: #eaeaea;
 .navbar {
   height: 60px;
   font-size: 1.2em;
-  background-color: lightgray;
-
+  font-family: 'Ubuntu';
 }
 
 .navbar ul {
@@ -47,7 +46,10 @@ $gray-medium-light: #eaeaea;
   padding-bottom: 10px;
 }
 
-.navbar, a:hover {
+.navbar ul li a {
+  color: black;
+}
+.navbar, ul li a:hover {
   color: red;
 }
 
@@ -76,7 +78,7 @@ $gray-medium-light: #eaeaea;
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 20px;
 }
 
