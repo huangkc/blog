@@ -36,13 +36,24 @@ $gray-medium-light: #eaeaea;
 
 .navbar {
   height: 60px;
-  font-size: 1.3em;
-  /*background-color: red;*/
+  font-size: 1.2em;
+  background-color: lightgray;
+
 }
 
 .navbar ul {
   padding-left: 100px;
-  padding-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar, a:hover {
+  color: red;
+}
+
+.start-button a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .container {
@@ -51,10 +62,10 @@ $gray-medium-light: #eaeaea;
 
 .jumbotron {
   /*background-image: url(image-path('mountain.jpg'));*/
-  background: url('mountain.jpeg');
-  height: 400px;
+  background: url('bridge.jpeg');
+  height: 500px;
   background-size: cover;
-  color: red;
+  color: white;
   min-width: 100%;
 }
 
@@ -65,7 +76,7 @@ $gray-medium-light: #eaeaea;
 }
 
 body {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
@@ -113,16 +124,16 @@ p {
 
 /*header*/
 #logo {
-  width: 60px;
+/*  width: 60px;
   height: 60px;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
-  padding-bottom: 9px;
+  padding-bottom: 9px;*/
+  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -131,10 +142,24 @@ p {
   text-decoration: none;
 }
 
+.btn-sm{
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  outline: 0;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #315481;
+  /*background-color: rgba(0,0,0,0.2)*/
+  color: white;
+}
 /* footer */
 
 footer {
-  /*background-color: #333;*/
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
