@@ -34,10 +34,16 @@ $gray-medium-light: #eaeaea;
 }
 */
 
+.container-main {
+  font-family: 'Ubuntu', sans-serif;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
 .navbar {
   height: 60px;
   font-size: 1.2em;
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar ul {
@@ -78,7 +84,6 @@ $gray-medium-light: #eaeaea;
 }
 
 body {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 
@@ -166,6 +171,7 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
+  text-align: center;
 }
 
 footer a {
@@ -188,7 +194,7 @@ footer ul {
 }
 
 footer ul li {
-  float: left;
+  float: left;  
   margin-left: 15px;
 }
 
