@@ -84,19 +84,33 @@ a {
   min-width: 100%;
 }
 
+.container-jumbo{
+  margin:0 auto;
+  overflow:hidden;
+  width: 100%;
+  width:800px;
+}
+
 .jumbo {
   background: url('bridge.jpeg');
-  height: 450px;
+  height: 550px;
   background-size: cover;
   color: white;
   min-width: 100%;
 }
 
 .jumbo p {
-  text-align: center;
   font-size: 2.5em;
   font-weight: bold;
   padding-top: 30px;
+}
+
+#welcome {
+  padding-top: 100px;
+}
+
+.jumbo h4{
+  color: white;
 }
 
 .login-page, .signup-page, .about-page, .contact-page {
@@ -182,8 +196,10 @@ p {
   background-color: #315481;
   border-radius: 0px;
 }
-.btn-sm{
-   outline: none;
+.btn-sm {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  outline: none;
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
