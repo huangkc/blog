@@ -1,11 +1,14 @@
+<div class="row">
+<div class="articles-page">
+	
+</div>
+</div>
 
-
-
-<div class="container"> 
+	<div class="container"> 
   <% @articles.each do |article| %>
     <!-- <tr> -->
     <p> <%= article.title %></p>
-    <p> <%= article.text %></p>
+<!--     <p> <%= article.text %></p> -->
     <p><%= link_to 'Read More', article_path(article) %> | <%= link_to 'Delete', article_path(article),
               method: :delete,
               data: { confirm: 'Are you sure?' } %></p>
@@ -14,6 +17,7 @@
  -->       
 
   <% end %>
-<p><%= link_to 'Post a new article', new_article_path %></p>
+	<p><%= link_to 'Post a new article', new_article_path %></p>
+	</div>
 </div>
 

@@ -133,6 +133,14 @@ a {
   padding-top: 100px;
 }
 
+.articles-page {
+  background: url('about-bg.jpg');
+  height: 300px;
+  background-size: cover;
+  color: white;
+  min-width: 100%; 
+}
+
 section {
   overflow: auto;
 }
