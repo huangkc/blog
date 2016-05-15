@@ -134,11 +134,29 @@ a {
 }
 
 .articles-page {
-  background: url('about-bg.jpg');
-  height: 300px;
+  background: url('bridge.jpeg');
+  height: 350px;
   background-size: cover;
   color: white;
   min-width: 100%; 
+}
+
+.articles-page p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+#articles {
+  padding-top: 100px;
+}
+
+.article-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5em;
+  color: green;
+  font-weight: bold;
 }
 
 section {
