@@ -8,7 +8,6 @@
             <%= render 'shared/micropost_form' %>
           </section>
         </aside>
-
         <div class="col-md-8">
           <h3>MicroBlog Post Feed</h3>
           <%= render 'shared/feed' %>
@@ -17,15 +16,15 @@
 
 <% else %>
 
-<div class="row">
-  <div class="jumbo">
-    <div class="container-jumbo">
-      <p id="welcome">Welcome to the MICROBLOG</p>
-      <h4>Connect with friends and other fascinating people through your micropost feed! Get updates on the things that interest you and watch events unfold in real time. Sign up today!</h4>
-      <p class="start-button"><%= link_to "GET STARTED", signup_path, class: "btn-sm" %></p>
+  <div class="row">
+    <div class="jumbo">
+      <div class="container-jumbo">
+        <p id="welcome">Welcome to the MICROBLOG</p>
+        <h4>Connect with friends and other fascinating people through your micropost feed! Get updates on the things that interest you and watch events unfold in real time. Sign up today!</h4>
+        <p class="start-button"><%= link_to "GET STARTED", signup_path, class: "btn-sm" %></p>
+      </div>
     </div>
   </div>
-</div>
 
 <% end %>
 
