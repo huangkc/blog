@@ -22,28 +22,29 @@
 		<%= comment.body%>
 	</p>
 <% end %>
+<hr>
+<p>What do you think?</p>
 
-<h2>what do you think?</h2>
 <%= form_for([@article, @article.comments.build]) do |f| %>
   <p>
     Name
     <% f.label :commenter %><br>
-    <%= f.text_field :commenter %>
+    <%= f.text_field :commenter, class: "comment-name" %>
   </p>
   <p>
     Comment
     <% f.label :body %><br>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, class: "comment-text" %>
   </p>
   <p class="start-button">
-    <%= f.submit "Submit", class: "btn-sm" %></div>>
+    <%= f.submit "Submit", class: "btn-sm" %>
   </p>
 <% end %>
   <!--
   <%= link_to 'Edit', edit_article_path(@article) %> -->
-  <%= link_to 'Back to news', articles_path %>
+  <%= link_to 'Back to news index', articles_path %>
   
 </div>
-<div class="col-md-3"></div>
+  <div class="col-md-3"></div>
 </div>
 
