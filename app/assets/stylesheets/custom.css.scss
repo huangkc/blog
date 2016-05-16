@@ -159,6 +159,20 @@ a {
   font-weight: bold;
 }
 
+.read-more {
+  background: url('bridge.jpeg');
+  height: 300px;
+  background-size: cover;
+  color: white;
+  min-width: 100%; 
+}
+
+.read-more p {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 100px;
+}
 section {
   overflow: auto;
 }

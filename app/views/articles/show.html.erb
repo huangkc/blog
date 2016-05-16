@@ -1,12 +1,20 @@
-<p>
+
+
+<div class="row">
+<div class="read-more">
+  <p>
   <strong></strong>
   <%= @article.title %>
 </p>
+
+</div>
+
  
 <p>
   <strong></strong>
   <%= @article.text %>
 </p>
+
 
 <h2></h2>
 <% @article.comments.each do |comment| %>
@@ -18,7 +26,7 @@
 	</p>
 <% end %>
 
-<h2></h2>
+<h2>what do you think?</h2>
 <%= form_for([@article, @article.comments.build]) do |f| %>
   <p>
     <%= f.label :commenter %><br>
@@ -36,3 +44,7 @@
 <%= link_to 'Edit', edit_article_path(@article) %> -->
 
 <%= link_to 'Back', articles_path %>
+
+
+</div>
+
