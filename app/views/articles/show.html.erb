@@ -23,15 +23,15 @@
 	</p>
 <% end %>
 <hr>
-<p>What do you think?</p>
+<p class="about">What do you think?</p>
 
 <%= form_for([@article, @article.comments.build]) do |f| %>
-  <p>
+  <p class="about">
     Name
     <% f.label :commenter %><br>
     <%= f.text_field :commenter, class: "comment-name" %>
   </p>
-  <p>
+  <p class="about">
     Comment
     <% f.label :body %><br>
     <%= f.text_area :body, class: "comment-text" %>
@@ -42,7 +42,7 @@
 <% end %>
   <!--
   <%= link_to 'Edit', edit_article_path(@article) %> -->
-  <%= link_to 'Back to news index', articles_path %>
+  <p class="about"><%= link_to 'Back to news index', articles_path %></p>
   
 </div>
   <div class="col-md-3"></div>
