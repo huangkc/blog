@@ -16,7 +16,6 @@ $gray-medium-light: #eaeaea;
 .about, .about p, .contact p {
   font-size: 1.2em;
   font-family: 'Ubuntu', sans-serif;
-
 }
 
 .debug_dump {
@@ -67,10 +66,7 @@ a {
 }
 
 .navbar, .navbar-nav ul {
-  /*padding-left: 100px;*/
-  /*padding-right: 100px;*/
   color: white;
-
 }
 
 .navbar, ul li a:hover {
@@ -111,7 +107,7 @@ a {
   padding-top: 100px;
 }
 
-.jumbo h4{
+.jumbo h4 {
   color: white;
 }
 
@@ -418,7 +414,6 @@ input {
     /*border-bottom: 1px solid $gray-lighter;*/
   }
 }
-
 
 /* microposts */
 
