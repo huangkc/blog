@@ -12,7 +12,7 @@
     <p class="article-text"><%= @article.text %></p>
     <hr>
     <% @article.comments.each do |comment| %>
-    	<p>
+    	<p class="about">
   		<%= comment.commenter %>: <%= comment.body%>
 	    </p>
       
