@@ -1,38 +1,54 @@
-<p>
-  <strong></strong>
-  <%= @article.title %>
-</p>
- 
-<p>
-  <strong></strong>
-  <%= @article.text %>
-</p>
+<div class="row">
+  <div class="read-more">
+    <p><%= @article.title %></p>
+  </div>
+</div>
 
-<h2></h2>
-<% @article.comments.each do |comment| %>
-	<p>Commenter:
-		<%= comment.commenter %>
-	</p>
-	<p>Comment:
-		<%= comment.body%>
-	</p>
-<% end %>
+<div class="space"></div>
 
-<h2></h2>
-<%= form_for([@article, @article.comments.build]) do |f| %>
-  <p>
-    <%= f.label :commenter %><br>
-    <%= f.text_field :commenter %>
-  </p>
-  <p>
-    <%= f.label :body %><br>
-    <%= f.text_area :body %>
-  </p>
-  <p>
-    <%= f.submit "Submit"%>
-  </p>
-<% end %>
-<!--
-<%= link_to 'Edit', edit_article_path(@article) %> -->
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <p class="article-text"><%= @article.text %></p>
+    <hr>
+    <% @article.comments.each do |comment| %>
+    	<p class="about">
+  		<%= comment.commenter %>: <%= comment.body%>
+	    </p>
+      
+      <p>
+      <% if logged_in? && current_user.admin? %> 
+      <%= link_to 'delete', [comment.article, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+      </p>
+      <% end %>
+      
+    <% end %>
+    <hr>
+    <p class="about">What do you think?</p>
 
-<%= link_to 'Back', articles_path %>
+    <%= form_for([@article, @article.comments.build]) do |f| %>
+    <p class="about">
+    Name
+    <% f.label :commenter %><br>
+    <%= f.text_field :commenter, class: "comment-name" %>
+    </p>
+    <p class="about">
+    Comment
+    <% f.label :body %>
+    <br>
+    <%= f.text_area :body, class: "comment-text" %>
+    </p>
+    <p class="start-button">
+    <%= f.submit "Submit", class: "btn-sm" %>
+    </p>
+    <% end %>
+
+  <!--
+  <%= link_to 'Edit', edit_article_path(@article) %> -->
+  <p class="about"><%= link_to 'Back to news index', articles_path %></p>
+  </div>
+  <div class="col-md-3"></div>
+</div>
+

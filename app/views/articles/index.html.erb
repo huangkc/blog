@@ -1,19 +1,40 @@
-
-
-
-<div class="container"> 
-  <% @articles.each do |article| %>
-    <!-- <tr> -->
-    <p> <%= article.title %></p>
-    <p> <%= article.text %></p>
-    <p><%= link_to 'Read More', article_path(article) %> | <%= link_to 'Delete', article_path(article),
-              method: :delete,
-              data: { confirm: 'Are you sure?' } %></p>
-
-<!--       <td><%= link_to 'Edit', edit_article_path(article) %></td>
- -->       
-
-  <% end %>
-<p><%= link_to 'Post a new article', new_article_path %></p>
+<div class="row">
+	<div class="articles-page">
+		<p id="articles"></p>
+	</div>
 </div>
+
+<div class="space"></div>
+
+<% if logged_in? && current_user.admin? %>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<% @articles.each do |article| %>
+  		<p class="article-title"> <%= article.title %></p>
+  		<p><%= link_to 'Read More', article_path(article) %> | <%= link_to 'Delete', article_path(article),
+            method: :delete,
+            data: { confirm: 'Are you sure?' } %> |
+      <%= link_to 'Edit', edit_article_path(article) %></p>
+				<% end %>
+		<div class="col-md-2"></div>
+		</div>
+	</div>
+	<p><%= link_to 'Post a new article', new_article_path %></p>
+	 
+<% else %>
+
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+		  <% @articles.each do |article| %>
+	    <p class="article-title"> <%= article.title %></p>
+	    <p><%= link_to 'Read More', article_path(article) %> </p>
+	    <hr>
+			<% end %>
+		</div>
+	</div>
+<% end %>
+
+
 
