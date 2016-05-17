@@ -11,7 +11,58 @@ $gray-medium-light: #eaeaea;
   box-sizing:         border-box;
 }
 
-/* miscellaneous */
+html, body {
+  background-size: cover;
+}
+
+a {
+  color: black;
+}
+
+
+
+/*jumbotron*/
+
+
+/*.jumbo p {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding-top: 30px;
+}*/
+
+#heading {
+  font-size: 2.5em;
+  padding-top: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 100px;
+}
+
+.welcome {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.container-jumbo{
+  margin:0 auto;
+  overflow:hidden;
+  width: 100%;
+  width:800px;
+}
+
+.jumbo {
+  background: url('home-bg.jpg');
+  height: 550px;
+  background-size: cover;
+  color: white;
+  min-width: 100%;
+}
+
+.jumbo h4 {
+  color: white;
+}
+
+ /*miscellaneous */
 
 .about, .about p, .contact p {
   font-size: 1.2em;
@@ -26,14 +77,6 @@ $gray-medium-light: #eaeaea;
   @include box_sizing;
 }
 
-html, body {
-  /*background-color: #333;*/
-  background-size: cover;
-}
-
-a {
-  color: black;
-}
 
 .container-main {
   font-family: 'Ubuntu', sans-serif;
@@ -58,7 +101,7 @@ a {
   font-family: 'Ubuntu', sans-serif;
   padding-right: 100px;
   font-weight: bold;
-  /*position: absolute;
+/*  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -73,6 +116,11 @@ a {
   color: red;
 }
 
+.start-button {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1em;
+}
+
 .start-button a:hover {
   color: red;
   text-decoration: none;
@@ -80,36 +128,6 @@ a {
 
 .container {
   min-width: 100%;
-}
-
-.container-jumbo{
-  margin:0 auto;
-  overflow:hidden;
-  width: 100%;
-  width:800px;
-}
-
-.jumbo {
-  background: url('home-bg.jpg');
-  height: 550px;
-  background-size: cover;
-  color: white;
-  min-width: 100%;
-}
-
-.jumbo p {
-  font-size: 2.5em;
-  font-weight: bold;
-  padding-top: 30px;
-}
-
-#welcome {
-  /*font-family: 'Ubuntu', sans-serif;*/
-  padding-top: 100px;
-}
-
-.jumbo h4 {
-  color: white;
 }
 
 .login-page, .signup-page {
@@ -207,7 +225,7 @@ textarea {
   margin-bottom: 10px;
 }
 
-/*typography*/
+/*typography
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
