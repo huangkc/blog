@@ -51,7 +51,8 @@ a {
 }
 
 .jumbo {
-  background: url('home-bg.jpg');
+  background-image: url(image-path('home-bg.jpg'));
+  /*background: url('home-bg.jpg');*/
   height: 550px;
   background-size: cover;
   color: white;
@@ -139,7 +140,8 @@ a {
 }
 
 .about-page {
-  background: url('about-bg.jpg');
+  /*background: url('about-bg.jpg');*/
+  background-image: url(image-path('about-bg.jpg'));
   height: 550px;
   background-size: cover;
   color: white;
@@ -153,7 +155,8 @@ a {
 }
 
 .articles-page {
-  background: url('bridge.jpeg');
+  /*background: url('bridge.jpeg');*/
+  background-image: url(image-path('bridge.jpeg'));
   height: 350px;
   background-size: cover;
   color: white;
@@ -179,7 +182,8 @@ a {
 }
 
 .read-more {
-  background: url('bridge.jpeg');
+  /*background: url('bridge.jpeg');*/
+  background-image: url(image-path('bridge.jpeg'));
   height: 300px;
   background-size: cover;
   color: white;
