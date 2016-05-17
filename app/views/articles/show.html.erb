@@ -13,10 +13,7 @@
     <hr>
     <% @article.comments.each do |comment| %>
     	<p>
-  		<%= comment.commenter %>:
-      </p>  
-    	<p>
-		  <%= comment.body%>
+  		<%= comment.commenter %>: <%= comment.body%>
 	    </p>
       
       <p>
