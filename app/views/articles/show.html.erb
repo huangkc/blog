@@ -10,16 +10,27 @@
   <div class="col-md-3"></div>
   <div class="col-md-6">
     <p class="article-text"><%= @article.text %></p>
+    <hr>
     <% @article.comments.each do |comment| %>
-    	<p>Commenter:
-  		<%= comment.commenter %>
+    	<p>
+  		<%= comment.commenter %>:
       </p>  
-    	<p>Comment:
+    	<p>
 		  <%= comment.body%>
-	     </p>
+	    </p>
+      
+      <p>
+      <% if logged_in? && current_user.admin? %> 
+      <%= link_to 'delete', [comment.article, comment],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+      </p>
+      <% end %>
+      
     <% end %>
     <hr>
     <p class="about">What do you think?</p>
+
     <%= form_for([@article, @article.comments.build]) do |f| %>
     <p class="about">
     Name
@@ -36,6 +47,7 @@
     <%= f.submit "Submit", class: "btn-sm" %>
     </p>
     <% end %>
+
   <!--
   <%= link_to 'Edit', edit_article_path(@article) %> -->
   <p class="about"><%= link_to 'Back to news index', articles_path %></p>
