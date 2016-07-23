@@ -17,7 +17,7 @@ class WelcomeControllerTest < ActionController::TestCase
   end
 
   test "should get news" do
-    get :article
+    get :articles
     assert_response :success
   end
 end
